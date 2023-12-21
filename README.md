@@ -9,7 +9,6 @@ This Python script finds the longest and second-longest compound words in a give
 - [Usage](#usage)
 - [How to Run](#how-to-run)
 - [Example](#example)
-- [License](#license)
 
 ## Introduction
 
@@ -51,8 +50,37 @@ This solution employs a Trie data structure to efficiently find the longest and 
     ```
 
 ## How to Run
-
 Run the `Solution.py` script with the path to the input file as an argument:
 
 ```bash
 python Solution.py "path/to/your/input/file.txt"
+```
+Replace "path/to/your/input/file.txt" with the actual path to your input file
+
+## Example
+
+Input:
+```
+File Name: Input_01.txt
+Contents:
+bash
+Copy code
+cat
+cats
+catsdogcats
+catxdogcatsrat
+dog
+dogcatsdog
+hippopotamuses
+rat
+ratcatdogcat
+```
+Output:
+```
+Longest Compound Word: ratcatdogcat
+Second Longest Compound Word: catsdogcats
+Time taken: 500 milliseconds
+```
+Note:
+Hippopotamuses is the longest word but not a compounded word.
+
