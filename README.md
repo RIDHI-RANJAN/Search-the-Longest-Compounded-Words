@@ -1,4 +1,4 @@
-# Search-the-Longest-Compounded-Words
+# Longest Compound Words Finder
 
 This Python script finds the longest and second-longest compound words in a given input file using a Trie data structure.
 
